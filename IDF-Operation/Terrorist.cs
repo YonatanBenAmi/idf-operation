@@ -4,9 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IDF_Operation
+namespace IdfOperation.Models
 {
-    internal class Terrorist
+    class Terrorist
     {
+        public string Name;
+        public int Rank;
+        public bool Status;
+        public string Weapon; 
+
+        public Terrorist(string name, int rank, bool status, string weapon)
+        {
+            Name = name;
+            Rank = rank;
+            Status = status;
+            Weapon = weapon;
+        }
     }
 }
