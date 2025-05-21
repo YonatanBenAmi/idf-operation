@@ -4,9 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IDF_Operation
+namespace IdfOperation.Models
 {
-    internal class IntelligenceUnit
+    class IntelligenceUnit
     {
+        public string TerroristName;
+        public string LastLocation;
+        public string InfromationCollectionTime;
+
+        public IntelligenceUnit(string terroristName, string lastLoction, string inCollTime)
+        {
+            TerroristName = terroristName;
+            LastLocation = lastLoction;
+            InfromationCollectionTime = inCollTime;
+        }
     }
 }
