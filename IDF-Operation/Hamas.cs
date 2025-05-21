@@ -4,9 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IDF_Operation
+namespace IdfOperation.Models
 {
-    internal class Hamas
+    class Hamas
     {
+        public string DateEstablishment;
+        public string CurrentCommander;
+
+        //public List<Dictionary<string, List<Dictionary<string, string>>>> ListOfTerrorist { get; set; }
+        //List OfTerrorist
+
+        public Hamas(string Date, string Commander)
+        {
+            DateEstablishment = Date;
+            CurrentCommander = Commander;
+        }
     }
 }
