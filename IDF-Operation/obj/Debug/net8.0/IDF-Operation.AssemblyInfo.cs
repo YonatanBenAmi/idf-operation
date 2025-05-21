@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IDF-Operation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4737bd436f19d5c8de834bd77dd7154a4f6a6d29")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0ff441ea620ae4ad2d87e1a334da5caba0fae6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("IDF-Operation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IDF-Operation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
