@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IDF-Operation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e9d0d41edd36bd3d7ecd7bf1538b1394c947d38")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99ec898b91040f4de00e1905363a2d4a0a2f6ed3")]
 [assembly: System.Reflection.AssemblyProductAttribute("IDF-Operation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IDF-Operation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
