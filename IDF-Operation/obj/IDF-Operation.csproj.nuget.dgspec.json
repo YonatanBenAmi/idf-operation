@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MyComputer\\Training\\SoftWare_for_training\\OOP_Project-IDF_Operation\\idf-operation\\IDF-Operation\\IDF-Operation.csproj": {}
+    "C:\\MyComputer\\Training\\Study_materials\\Week_3\\Lesson_4\\OOP_IDF_Project\\idf-operation\\IDF-Operation\\IDF-Operation.csproj": {}
   },
   "projects": {
-    "C:\\MyComputer\\Training\\SoftWare_for_training\\OOP_Project-IDF_Operation\\idf-operation\\IDF-Operation\\IDF-Operation.csproj": {
+    "C:\\MyComputer\\Training\\Study_materials\\Week_3\\Lesson_4\\OOP_IDF_Project\\idf-operation\\IDF-Operation\\IDF-Operation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyComputer\\Training\\SoftWare_for_training\\OOP_Project-IDF_Operation\\idf-operation\\IDF-Operation\\IDF-Operation.csproj",
+        "projectUniqueName": "C:\\MyComputer\\Training\\Study_materials\\Week_3\\Lesson_4\\OOP_IDF_Project\\idf-operation\\IDF-Operation\\IDF-Operation.csproj",
         "projectName": "IDF-Operation",
-        "projectPath": "C:\\MyComputer\\Training\\SoftWare_for_training\\OOP_Project-IDF_Operation\\idf-operation\\IDF-Operation\\IDF-Operation.csproj",
+        "projectPath": "C:\\MyComputer\\Training\\Study_materials\\Week_3\\Lesson_4\\OOP_IDF_Project\\idf-operation\\IDF-Operation\\IDF-Operation.csproj",
         "packagesPath": "C:\\Users\\danhe\\.nuget\\packages\\",
-        "outputPath": "C:\\MyComputer\\Training\\SoftWare_for_training\\OOP_Project-IDF_Operation\\idf-operation\\IDF-Operation\\obj\\",
+        "outputPath": "C:\\MyComputer\\Training\\Study_materials\\Week_3\\Lesson_4\\OOP_IDF_Project\\idf-operation\\IDF-Operation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
