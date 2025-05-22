@@ -21,16 +21,6 @@ namespace IdfOperation.Models
             Status = status;
             Weapon = weapon;
         }
-
-        public Terrorist CrateTerrorist()
-        {
-            Random random = new Random();
-            List<bool> isAlive = new List<bool> { true, false };
-            List<string> weaponRandom = new List<string> { "knife", "gon", "m16", "ak47" };
-
-            Terrorist ter = new Terrorist("Hachmad", random.Next(1, 5), isAlive[random.Next(0, 1)], weaponRandom[random.Next(0, 3)]);
-            return ter;
-        }
         
     }
     
