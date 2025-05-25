@@ -20,6 +20,7 @@ namespace IdfOperation.Models
             Rank = rank;
             Status = status;
             Weapon = weapon;
+            ;
         }
         
     }
