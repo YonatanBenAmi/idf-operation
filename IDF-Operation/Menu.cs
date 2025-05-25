@@ -13,13 +13,9 @@ namespace IdfOperation.Models
         {
 
             Console.WriteLine("1. Intel Analysis:");
-            Console.WriteLine("(Identify the terrorist with the most intelligence reports)");
             Console.WriteLine("2. Strike Availability:");
-            Console.WriteLine("(Show all currently available strike units and their remaining capacity)");
             Console.WriteLine("3. Target Priorization:");
-            Console.WriteLine("(Determine the most dangerous terrorist based on a quality rank)");
             Console.WriteLine("4. Strike Execution:");
-            Console.WriteLine("(Based on the terrorist's location and type, choose an appropriate strike unit)");
             
             Console.WriteLine("Choose exercise number: ");
             string yourChoice = Console.ReadLine();

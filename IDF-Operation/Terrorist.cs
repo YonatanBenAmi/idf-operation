@@ -12,9 +12,9 @@ namespace IdfOperation.Models
         public string Name;
         public int Rank;
         public bool Status;
-        public string Weapon;
+        public string[] Weapon;
 
-        public Terrorist(string name, int rank, bool status, string weapon)
+        public Terrorist(string name, int rank, bool status, string[] weapon)
         {
             Name = name;
             Rank = rank;
