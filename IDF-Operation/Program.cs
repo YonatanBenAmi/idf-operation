@@ -6,9 +6,8 @@ namespace IdfOperation
     {
         static void Main(string[] args)
         {
-            Hamas h = new Hamas("1972", "Muchamad");
-            List<Terrorist> t1 = h.TerroristList(10);
-
+            Hamas hamas = new Hamas("1972", "Muchamad");
+            List<Terrorist> t1 = hamas.TerroristList(10);
         }
     }
 }

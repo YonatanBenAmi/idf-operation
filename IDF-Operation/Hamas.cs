@@ -29,7 +29,7 @@ namespace IdfOperation.Models
             List<bool> isAlive = new List<bool> { true, false };
             List<string> weaponRandom = new List<string> { "knife", "gon", "m16", "ak47" };
 
-            Terrorist ter = new Terrorist("Hachmad", random.Next(1, 6), isAlive[random.Next(0, 2)], weaponRandom[random.Next(0, 4)]);
+            Terrorist ter = new Terrorist("Hachmad", random.Next(1, 6), isAlive[random.Next(0, 2)], [weaponRandom[random.Next(0, 4)]]);
             return ter;
         }
 
