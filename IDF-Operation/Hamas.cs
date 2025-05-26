@@ -45,5 +45,22 @@ namespace IdfOperation.Models
             }
             return terroristList;
         }
+        
+        public int RiskPoints(Terrorist ter)
+        {
+            Dictionary<string, int> points = new Dictionary<string, int>();
+            points.Add("knife", 1);
+            points.Add("gon", 2);
+            points.Add("m16", 3);
+            points.Add("ak47", 3);
+            int totalSum = 0;
+
+            foreach (var item in ter.Weapon)
+            {
+                totalSum += points[item];
+            }
+            return totalSum * ter.Rank;
+        }
+
     }
 }

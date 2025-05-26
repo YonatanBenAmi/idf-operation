@@ -21,24 +21,7 @@ namespace IdfOperation.Models
             InfromationCollectionTime = inCollTime;
         }
 
-        public int RiskPoints(Dictionary<string, string> report, Terrorist ter)
-        {
-            Dictionary<string, int> points = new Dictionary<string, int>();
-            points.Add("knife", 1);
-            points.Add("gon", 2);
-            points.Add("m16", 3);
-            points.Add("ak47", 3);
-            int totalSum = 0;
-
-            string nameTerrorist = report["name"];
-
-            foreach (var item in ter.Weapon)
-            {
-                totalSum += points[item];
-            }
-            return totalSum * ter.Rank;
-        }
-
+      
         public Dictionary<string, string> IntelligenceReport(Terrorist ter)
         {
             List<string> loction = new List<string>();
