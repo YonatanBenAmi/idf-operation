@@ -33,7 +33,7 @@ namespace IdfOperation.Models
             return ter;
         }
 
-        public List<Terrorist> TerroristList(int num)
+        public List<Terrorist> CreateTerroristList(int num)
         {
             List<Terrorist> terroristList = new List<Terrorist>();
 
