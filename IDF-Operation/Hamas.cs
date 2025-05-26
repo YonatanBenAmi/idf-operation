@@ -15,8 +15,6 @@ namespace IdfOperation.Models
 
         public List<Terrorist> MyTerrorist;
 
-
-
         public Hamas(string date, string commander)
         {
             DateEstablishment = date;
